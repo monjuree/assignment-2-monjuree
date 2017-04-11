@@ -5,12 +5,14 @@ Author: Your Name
 Developer @GA in NYC
 */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 
 /******************************************
 /* SETUP
 /*******************************************/
 
 /* Box Model Hack */
+
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -47,36 +49,159 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 
 /******************************************
-/* LAYOUT
+					LAYOUT
 /*******************************************/
 
 /* Center the container */
 #container {
   width: 100%;
-  margin: auto;
-  height: 500px;
-
+  /*height: 500px;*/
 }
 
+	/*************all general*************/
+h1 {
+	font-size: 24px;
+	font-weight:bolder;
+	color:#f9e42e;
+}
+
+a {
+	text-decoration: none;
+	color:#033048;
+}
+
+	/*************** header ***************/
 header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
 
 }
+
+#logo {
+	float: left;
+	margin-left: 70px;
+	margin-top: 40px;
+	margin-bottom: 150px;
+}
+
+h2 {
+	clear: both;
+	font-size: 24px;
+	font-weight: 400;
+	color:white;
+	margin-bottom: 90px;
+}
+
+
+		/********************** CTA *******************/
+.button-line {
+	background-color:#f9e42e;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bolder;
+	padding:10px 45px;
+	margin-bottom: 230px;
+}
+
+
+ /*************benefits************/
+
+#benefits {
+	background-color:#f0efef;
+	color:#606161;
+	font-size:13px;
+	font-weight:300;
+	padding:90px 70px;
+	
+}
+
+h3 {
+	color:#033048;
+	font-weight: 600;
+	font-size:20px;
+	margin-bottom: 18px;
+}
+
+section p {
+	width: 350px;
+	margin-bottom: 20px;
+}
+
+section ul {
+	margin-left: 45px;
+	width: 220px
+}
+
+/************* quote *****************/
+
+#quote {
+	background: url(../images/testimonial_bg.jpg) top rgb(134,141,157);
+	color:white;
+	text-align: center;
+}
+
+blockquote {
+	
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+	width: 60%;
+	margin: auto;
+	padding: 60px;
+}
+
+q {
+	display: block;
+	font-weight:bolder;
+	font-size: 16px;
+	font-style: normal;
+}
+
+.sign-up-sec {
+	margin: auto;
+	display: block;
+	text-align: center;
+	padding:45px;
+}
+
+#sign-up-now {
+	background-color: #033048;
+	color:white;
+	padding:10px 40px;
+	border-radius: 5px;
+}
+
+/**************footer************/
+
 
 footer {
-
+	text-align: center;
+	background-color:#121212;
+	color:white;
 }
 
+footer h1 {
+	padding: 40px;
+}
+
+footer img{
+	padding: 40px 20px;
+}
+footer p {
+	font-size: 9px;
+	font-weight: 600;
+	padding-bottom: 15px;
+}
 /******************************************
-/* ADDITIONAL STYLES
+/* 			ADDITIONAL STYLES
 /*******************************************/
 
 
